@@ -1,0 +1,19 @@
+{
+    "solutions": [
+      {"id": 1, "word": "komin"},
+      {"id": 2, "word": "szafa"},
+      {"id": 3, "word": "atlas"},
+      {"id": 4, "word": "droga"},
+      {"id": 5, "word": "ulica"},
+      {"id": 6, "word": "lampa"},
+      {"id": 7, "word": "pajac"},
+      {"id": 8, "word": "wiatr"},
+      {"id": 9, "word": "zegar"},
+      {"id": 10, "word": "motyl"},
+      {"id": 11, "word": "serce"},
+      {"id": 12, "word": "worek"},
+      {"id": 13, "word": "sklep"},
+      {"id": 14, "word": "trawa"},
+      {"id": 15, "word": "pomoc"}
+    ]
+  }
