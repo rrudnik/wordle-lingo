@@ -4,11 +4,11 @@ const useWordle = (solution) => {
     const [turn, setTurn] = useState(0)
     const [currentGuess, setCurrentGuess] = useState('')
     const [guesses, setGuesses] = useState([])
-    const [history, setHistory] = useState(['hello','ninja'])
+    const [history, setHistory] = useState(['ninja','doors'])
     const [isCorrect, setIsCorrect] = useState(false)
 
     const formatGuess = () => {
-        console.log('formatting guess'- {currentGuess})
+        console.log({currentGuess})
     }
 
     const addNewGuess = () => {
