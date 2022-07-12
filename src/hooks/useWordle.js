@@ -22,6 +22,7 @@ const useWordle = (solution) => {
                 return prev.slice(0,-1)
             })
             return
+            
         }
 
         if (/^[A-Za-z]$/.test(key)) {
