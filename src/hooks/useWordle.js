@@ -37,6 +37,7 @@ const useWordle = (solution) => {
     const addNewGuess = (formattedGuess) => {
         if (currentGuess === solution) {
             setIsCorrect(true)
+            console.log(isCorrect)
         }
 
         setGuesses((prevGuesses) => {
@@ -63,11 +64,11 @@ const useWordle = (solution) => {
                     return
                 }
                 if (l.color === 'yellow' && currentColor !== 'green') {
-                    newKeys[l.key]='yellow'
+                    newKeys[l.key] = 'yellow'
                     return
                 }
-                if (l.color==='grey' && currentColor !== 'green' && currentColor !== 'yellow'){
-                    newKeys[l.key]='grey'
+                if (l.color === 'grey' && currentColor !== 'green' && currentColor !== 'yellow') {
+                    newKeys[l.key] = 'grey'
                     return
                 }
             })
